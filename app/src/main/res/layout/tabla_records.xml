@@ -11,7 +11,9 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:text="RECORDS" />
+            android:layout_height="wrap_content"
+            android:text="RECORDS"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
