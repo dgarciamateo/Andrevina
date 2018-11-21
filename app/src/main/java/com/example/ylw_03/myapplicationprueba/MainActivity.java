@@ -43,7 +43,16 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     intentos++;
                     text.setText("");
-                    Toast.makeText(getApplicationContext(), "HAS FALLADO",Toast.LENGTH_SHORT).show();
+                    if(num>numeroRandom){
+
+                        Toast.makeText(getApplicationContext(), "El numero es menor",Toast.LENGTH_SHORT).show();
+
+                    }else{
+
+                        Toast.makeText(getApplicationContext(), "El numero es mayor",Toast.LENGTH_SHORT).show();
+
+                    }
+
                 }
 
 
